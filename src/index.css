@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: linear-gradient(135deg, #2c3e50, #040608); /* Dark gradient background */
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Soft shadow */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Subtle border */
+}
